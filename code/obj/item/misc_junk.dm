@@ -491,6 +491,18 @@ TYPEINFO(/obj/item/reagent_containers/vape)
 			last_ring = world.time
 			playsound(src.loc, 'sound/misc/Boxingbell.ogg', 50,1)
 
+/obj/item/bone_fragment
+	name = "bone fragment"
+	desc = "Little crushed up bits of bone that can fit in the reagent extractor."
+	icon = 'icons/obj/materials.dmi'
+	item_state = "shard"
+	icon_state = "shard"
+
+	New()
+		..()
+		src.create_reagents(10)
+		reagents.add_reagent("bonemeal", 10)
+
 /obj/item/trophy
 	name = "trophy"
 	desc = "You're winner! You did it! You did the thing! Good job!"
