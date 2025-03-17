@@ -1191,11 +1191,10 @@ TYPEINFO(/obj/machinery/plantpot)
 			// else just don't reduce the harvests
 		else
 			src.harvests--
-	if(growing.isgrass || src.harvests <= 0)
+		if((growing.isgrass && !HYPCheckCommut(DNA, /datum/plant_gene_strain/rooted)) || src.harvests <= 0)
 		// Vegetable-style plants always die after one harvest irregardless of harvests
 		// remaining, though they do get bonuses for having a good harvests gene.
-		HYPkillplant()
-
+			HYPkillplant()
 	//do we have to run the next life tick manually? maybe
 	playsound(src.loc, "rustle", 50, 1, -5, 2)
 	src.UpdateIcon()
