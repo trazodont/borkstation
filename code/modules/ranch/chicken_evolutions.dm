@@ -303,3 +303,13 @@ ABSTRACT_TYPE(/datum/ranch/evolution/level_up/chicken)
 		else
 			W.attack_ability = W.abilityHolder.addAbility(W.attack_ability_type)
 		W.egg_type = /obj/item/reagent_containers/food/snacks/ingredient/egg/chicken/wizard
+
+/datum/ranch/evolution/level_up/chicken/robot/coder
+	evolution_priority = 100
+	xp_threshold = 1
+
+	evolve(mob/living/critter/small_animal/ranch_base/C)
+		var/mob/living/critter/small_animal/ranch_base/chicken/robot/H = C
+		if(istype(H))
+			H.visible_message(SPAN_NOTICE("<b>[H]</b> undergoes a strange transformation!"))
+			H.transform_into_coder()
