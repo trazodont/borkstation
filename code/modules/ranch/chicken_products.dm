@@ -138,6 +138,8 @@
 		egg_props_path = /datum/chicken_egg_props/time
 	space
 		egg_props_path = /datum/chicken_egg_props/space
+	coder
+		egg_props_path = /datum/chicken_egg_props/coder
 	power_blue
 		egg_props_path = /datum/chicken_egg_props/power_blue
 		New()
@@ -369,6 +371,11 @@ ABSTRACT_TYPE(/datum/chicken_egg_props)
 		food_effects = list("mime_time")
 		hen_type = /mob/living/critter/small_animal/ranch_base/chicken/mime/ai_controlled
 		rooster_type = /mob/living/critter/small_animal/ranch_base/chicken/mime/rooster/ai_controlled
+		gender_balance = 50
+	coder
+		chicken_id = "coder"
+		hen_type = /mob/living/critter/small_animal/ranch_base/chicken/coder/ai_controlled
+		rooster_type = /mob/living/critter/small_animal/ranch_base/chicken/coder/rooster/ai_controlled
 		gender_balance = 50
 	balloon_helium
 		chicken_id = "balloon"
