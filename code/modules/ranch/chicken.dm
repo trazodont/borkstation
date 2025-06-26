@@ -1200,6 +1200,38 @@ All other chickens in this file are non-secret. Please be respectful.
 	favorite_flag = "robot"
 	attack_ability_type = /datum/targetable/critter/zzzap
 
+	New()
+		. = ..()
+		src.evolutions += new/datum/ranch/evolution/level_up/chicken/robot/coder
+
+	proc/transform_into_coder()
+		var/mob/living/critter/small_animal/ranch_base/chicken/coder/M = null
+		if(is_masc)
+			M = new /mob/living/critter/small_animal/ranch_base/chicken/coder/rooster/ai_controlled
+		else
+			M = new /mob/living/critter/small_animal/ranch_base/chicken/coder/ai_controlled
+
+		if(M)
+			M.happiness = src.happiness
+			M.my_friends = src.my_friends
+			M.shit_list = src.shit_list
+			M.age = src.age
+			M.ageless = src.ageless
+			M.immortal = src.immortal
+			M.set_loc(get_turf(src))
+			qdel(src)
+
+
+	attackby(var/obj/item/W, mob/user)
+		if(istype(W,/obj/item/toy/gooncode))
+			user.visible_message(SPAN_NOTICE("<b>[user]</b> hands [src] the gooncode."),SPAN_NOTICE("You hand [src] the."))
+			src.xp += 1
+			user.u_equip(W)
+			W.set_loc(src)
+			qdel(W)
+		else
+			. = ..()
+
 	grow_up()
 		..()
 		if(is_masc)
@@ -1908,6 +1940,40 @@ All other chickens in this file are non-secret. Please be respectful.
 		else
 			name = "mime hen"
 			real_name = "mime hen"
+			desc = "..."
+		return
+
+	change_happiness(var/amt)
+		..()
+
+	rooster
+		is_masc = 1
+
+		ai_controlled
+			is_npc = 1
+
+	ai_controlled
+		is_npc = 1
+
+/mob/living/critter/small_animal/ranch_base/chicken/coder
+	name = "coder chick"
+	real_name = "coder chick"
+	desc = "..."
+	egg_type = /obj/item/reagent_containers/food/snacks/ingredient/egg/chicken/coder
+	chicken_id = "coder"
+	happiness = 0
+	favorite_flag = "grass"
+	happy_pet_message = "looks happy."
+
+	grow_up()
+		..()
+		if(is_masc)
+			name = "coder rooster"
+			real_name = "coder rooster"
+			desc = "..."
+		else
+			name = "coder hen"
+			real_name = "coder hen"
 			desc = "..."
 		return
 
