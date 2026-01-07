@@ -1922,3 +1922,38 @@ All other chickens in this file are non-secret. Please be respectful.
 
 	ai_controlled
 		is_npc = 1
+
+/mob/living/critter/small_animal/ranch_base/chicken/coder
+	name = "coder chick"
+	real_name = "coder chick"
+	desc = "..."
+	egg_type = /obj/item/reagent_containers/food/snacks/ingredient/egg/chicken/coder
+	chicken_id = "coder"
+	happiness = 0
+	favorite_flag = "nicotine"
+	attack_ability_type = /datum/targetable/critter/mime_cage
+	happy_pet_message = "looks happy."
+
+	grow_up()
+		..()
+		if(is_masc)
+			name = "codester"
+			real_name = "codester"
+			desc = "..."
+		else
+			name = "code hen"
+			real_name = "code hen"
+			desc = "..."
+		return
+
+	change_happiness(var/amt)
+		..()
+
+	rooster
+		is_masc = 1
+
+		ai_controlled
+			is_npc = 1
+
+	ai_controlled
+		is_npc = 1
