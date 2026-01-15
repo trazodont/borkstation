@@ -543,6 +543,7 @@ ABSTRACT_TYPE(/datum/bioEffect/power)
 	name = "Trichochromatic Shift"
 	desc = "Enables the subject to shift their hair color to a different region."
 	id = "colorshift"
+	icon_state = "tri_shift"
 	msgGain = "Your hair itches."
 	msgLose = "You feel more confident in your hair color."
 	cooldown = 600
@@ -555,7 +556,7 @@ ABSTRACT_TYPE(/datum/bioEffect/power)
 /datum/targetable/geneticsAbility/colorshift
 	name = "Trichochromatic Shift"
 	desc = "Swap the colors of your hair around."
-	icon_state = "polymorphism"
+	icon_state = "tri_shift"
 	needs_hands = FALSE
 	targeted = FALSE
 
@@ -1785,6 +1786,7 @@ ABSTRACT_TYPE(/datum/bioEffect/power)
 	name = "Telekinetic Pull"
 	desc = "Allows the subject to influence physical objects through utilizing latent powers in their mind."
 	id = "telekinesis_drag"
+	icon_state = "tkp"
 	effectType = EFFECT_TYPE_POWER
 	probability = 8
 	blockCount = 5
@@ -1821,6 +1823,7 @@ ABSTRACT_TYPE(/datum/bioEffect/power)
 	name = "Telekinesis"
 	desc = "Allows the subject to influence physical objects through utilizing latent powers in their mind."
 	id = "telekinesis_command"
+	icon_state  = "tk"
 	effectType = EFFECT_TYPE_POWER
 	probability = 8
 	blockCount = 5
@@ -2328,6 +2331,7 @@ ABSTRACT_TYPE(/datum/bioEffect/power/critter)
 	name = "Ophidentis Vipernox"
 	desc = "Generates an enhanced structure of your fangs allowing for venom."
 	id = "snake_bite"
+	icon_state = "viper"
 	msgGain = "You become oddly aware of your canines and they feel different."
 	msgLose = "You feel less aware of your teeth."
 	cooldown = 20 SECONDS
@@ -2348,6 +2352,7 @@ ABSTRACT_TYPE(/datum/bioEffect/power/critter)
 	name = "Scorpiocauda Vipernox"
 	desc = "Generates a hardened chitin tail like stucture."
 	id = "scorpion_sting"
+	icon_state = "scorpio"
 	msgGain = "You feel aware of something strange around your tail bone."
 	msgLose = "You feel a bit more normal."
 	cooldown = 20 SECONDS
