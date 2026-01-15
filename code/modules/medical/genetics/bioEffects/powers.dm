@@ -464,76 +464,62 @@ ABSTRACT_TYPE(/datum/bioEffect/power)
 	name = "Polymorphism"
 	desc = "Mimic the appearance of others."
 	icon_state = "polymorphism"
-	targeted = 1
+	targeted = TRUE
 
-	cast(atom/target)
+	cast_genetics(atom/target, misfire)
 		if (..())
-			return 1
+			return CAST_ATTEMPT_FAIL_CAST_FAILURE
 
-		if (target == owner)
-			boutput(owner, SPAN_ALERT("While \"be yourself\" is pretty good advice, that would be taking it a bit too literally."))
-			return 1
-		if (BOUNDS_DIST(target, owner) > 0 && !owner.bioHolder.HasEffect("telekinesis"))
-			boutput(owner, SPAN_ALERT("You must be within touching distance of [target] for this to work."))
-			return 1
+		if (target == src.owner)
+			boutput(src.owner, SPAN_ALERT("While \"be yourself\" is pretty good advice, that would be taking it a bit too literally."))
+			return CAST_ATTEMPT_FAIL_CAST_FAILURE
+		if (BOUNDS_DIST(target, src.owner) > 0 && !src.owner.bioHolder.HasEffect("telekinesis"))
+			boutput(src.owner, SPAN_ALERT("You must be within touching distance of [target] for this to work."))
+			return CAST_ATTEMPT_FAIL_CAST_FAILURE
 
 		if (!ishuman(target))
-			boutput(owner, SPAN_ALERT("[target] does not seem to be compatible with this ability."))
-			return 1
+			boutput(src.owner, SPAN_ALERT("[target] does not seem to be compatible with this ability."))
+			return CAST_ATTEMPT_FAIL_CAST_FAILURE
 		var/mob/living/carbon/human/H = target
 		if (!H.bioHolder || H.mutantrace?.dna_mutagen_banned)
-			boutput(owner, SPAN_ALERT("[target] does not seem to be compatible with this ability."))
-			return 1
+			boutput(src.owner, SPAN_ALERT("[target] does not seem to be compatible with this ability."))
+			return CAST_ATTEMPT_FAIL_CAST_FAILURE
 
-		if (!ishuman(owner))
-			boutput(owner, SPAN_ALERT("Your body doesn't seem to be compatible with this ability."))
-			return 1
+		if (!ishuman(src.owner))
+			boutput(src.owner, SPAN_ALERT("Your body doesn't seem to be compatible with this ability."))
+			return CAST_ATTEMPT_FAIL_CAST_FAILURE
 		var/mob/living/carbon/human/H2= target
 		if (!H2.bioHolder || H2.mutantrace?.dna_mutagen_banned)
-			boutput(owner, SPAN_ALERT("Your body doesn't seem to be compatible with this ability."))
-			return 1
+			boutput(src.owner, SPAN_ALERT("Your body doesn't seem to be compatible with this ability."))
+			return CAST_ATTEMPT_FAIL_CAST_FAILURE
 
-		playsound(owner.loc, 'sound/impact_sounds/Slimy_Hit_4.ogg', 50, 1)
-		owner.visible_message(SPAN_ALERT("<b>[owner]</b> touches [target], then begins to shifts and contort!"))
+		if (misfire)
+			playsound(src.owner.loc, 'sound/impact_sounds/Slimy_Hit_4.ogg', 50, 1)
+			src.owner.visible_message(SPAN_ALERT("<b>[src.owner]</b> touches [target]... and nothing happens. Huh."))
+			return CAST_ATTEMPT_SUCCESS
+
+		playsound(src.owner.loc, 'sound/impact_sounds/Slimy_Hit_4.ogg', 50, 1)
+		src.owner.visible_message(SPAN_ALERT("<b>[src.owner]</b> touches [target], then begins to shifts and contort!"))
 
 		SPAWN(1 SECOND)
-			if(H && owner)
-				playsound(owner.loc, 'sound/impact_sounds/Flesh_Break_2.ogg', 50, 1)
-				owner.bioHolder.CopyOther(H.bioHolder, copyAppearance = 1, copyPool = 0, copyEffectBlocks = 0, copyActiveEffects = 0)
-				owner.real_name = H.real_name
-				owner.name = H.name
-				if(owner.bioHolder?.mobAppearance?.mutant_race)
-					owner.set_mutantrace(owner.bioHolder.mobAppearance.mutant_race.type)
-				else
-					owner.set_mutantrace(null)
-				if(ishuman(owner))
-					var/mob/living/carbon/human/O = owner
-					O.update_colorful_parts()
-		return
+			polymorph(H)
 
-	cast_misfire(atom/target)
-		if (..())
-			return 1
+		return CAST_ATTEMPT_SUCCESS
 
-		if (!ishuman(target))
-			boutput(owner, SPAN_ALERT("[target] does not seem to be compatible with this ability."))
-			return 1
-		if (target == owner)
-			boutput(owner, SPAN_ALERT("While \"be yourself\" is pretty good advice, that would be taking it a bit too literally."))
-			return 1
-		var/mob/living/carbon/human/H = target
-		if (!H.bioHolder)
-			boutput(owner, SPAN_ALERT("[target] does not seem to be compatible with this ability."))
-			return 1
-
-		if (BOUNDS_DIST(H, owner) > 0 && !owner.bioHolder.HasEffect("telekinesis"))
-			boutput(owner, SPAN_ALERT("You must be within touching distance of [target] for this to work."))
-			return 1
-
-		playsound(owner.loc, 'sound/impact_sounds/Slimy_Hit_4.ogg', 50, 1)
-		owner.visible_message(SPAN_ALERT("<b>[owner]</b> touches [target]... and nothing happens. Huh."))
-
-		return
+	proc/polymorph(var/mob/living/carbon/human/target)
+		if(!target || !src.owner)
+			return
+		playsound(owner.loc, 'sound/impact_sounds/Flesh_Break_2.ogg', 50, 1)
+		src.owner.bioHolder.CopyOther(target.bioHolder, copyAppearance = 1, copyPool = 0, copyEffectBlocks = 0, copyActiveEffects = 0)
+		src.owner.real_name = target.real_name
+		src.owner.name = target.name
+		if(src.owner.bioHolder?.mobAppearance?.mutant_race)
+			src.owner.set_mutantrace(src.owner.bioHolder.mobAppearance.mutant_race.type)
+		else
+			src.owner.set_mutantrace(null)
+		if(ishuman(src.owner))
+			var/mob/living/carbon/human/O = src.owner
+			O.update_colorful_parts()
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*  / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /  */
@@ -2305,12 +2291,64 @@ ABSTRACT_TYPE(/datum/bioEffect/power)
 						if (thrown_limb)
 							thrown_limb.throwforce = tmp_force
 
+
+/datum/bioEffect/power/ghost_walk
+	name = "Spectral Ascent"
+	desc = "Allows the subject to become a ghost for a short duration, leaving their body to return."
+	id = "ghost_walk"
+	icon = "ghost_ascend"
+	occur_in_genepools = 0 // Only from the genes of a boss mob.
+	probability = 0
+	msgGain = "You feel like your soul is more flexible."
+	msgLose = "Your soul feels anchored again."
+	stability_loss = 20
+	blockCount = 4
+	blockGaps = 5
+	lockProb = 40
+	lockedGaps = 1
+	lockedDiff = 3
+	lockedChars = list("G","C","A","T")
+	lockedTries = 8
+	ability_path = /datum/targetable/geneticsAbility/ghost_walk
+
+/datum/targetable/geneticsAbility/ghost_walk
+	name = "Spectral Ascent"
+	desc = "Temporarily become a ghost to survey your surrondings."
+	icon_state = "ghost_ascend"
+	needs_hands = FALSE
+	targeted = FALSE
+
+	cast()
+		if (..())
+			return 1
+
+		if (ishuman(owner))
+			owner.changeStatus("ghost_walk_effect", 30 SECONDS)
+
+/datum/targetable/gimmick/ghost_walk_return // Return ability, on the ghost
+	name = "Spectral Anchor"
+	desc = "Return to your body."
+	icon = 'icons/mob/genetics_powers.dmi'
+	icon_state = "ghost_ascend"
+	targeted = FALSE
+	var/datum/statusEffect/art_curse/displaced_soul/gene/GeneBuff
+
+	cast()
+		if (..())
+			return 1
+
+		if (istype(holder.owner, /mob/living/intangible/art_curser_displaced_soul/gene))
+			GeneBuff = holder.owner.hasStatus("ghost_walk_soul")
+			boutput(holder.owner, "You return to your body!")
+			GeneBuff.original_body.delStatus("ghost_walk_effect")
+
+
 ABSTRACT_TYPE(/datum/bioEffect/power/critter)
 /datum/bioEffect/power/critter
 	id = "critter_do_not_use"
 
 /datum/bioEffect/power/critter/peck
-	name = "Aviornis Rostriformis "
+	name = "Aviornis Rostriformis"
 	desc = "Generates a hardened keratin area between the mouth and nose."
 	id = "beak_peck"
 	msgGain = "You feel your mouth and nose become more difficult to move."
