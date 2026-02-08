@@ -727,7 +727,11 @@ Equip items from body traits.
 		smoker_zippo.quality = rand(5,80)
 		trinkets_to_equip += smoker_zippo
 	if (src.traitHolder && src.traitHolder.hasTrait("allergic"))
-		trinkets_to_equip += new/obj/item/reagent_containers/emergency_injector/epinephrine(src)
+		var/obj/item/reagent_containers/emergency_injector/epinephrine/allergic_pen = new(src)
+		allergic_pen.name = "[src.real_name][pick_string("trinkets.txt", "modifiers")] [allergic_pen.name]"
+		allergic_pen.real_name = allergic_pen.name
+		allergic_pen.quality = rand(5,80)
+		trinkets_to_equip += allergic_pen
 
 	for (var/obj/item/I in trinkets_to_equip)
 		var/equipped = 0
