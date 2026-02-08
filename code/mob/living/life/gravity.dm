@@ -3,6 +3,8 @@
 /datum/lifeprocess/gravity/process(datum/gas_mixture/environment)
 	. = ..()
 	var/turf/T = get_turf(src.owner)
+	if (!istype(T))
+		return
 
 	if (src.owner.gforce != T.get_gforce_current())
 		src.owner.set_gravity(T)
