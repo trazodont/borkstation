@@ -123,6 +123,8 @@ TYPEINFO(/mob/dead/target_observer)
 
 		if (isobj(target))
 			src.RegisterSignal(target, COMSIG_PARENT_PRE_DISPOSING, VERB_REF(stop_observing))
+		if (isAIeye(target))
+			src.RegisterSignal(target, COMSIG_PARENT_PRE_DISPOSING, VERB_REF(stop_observing))
 
 		src.target.ensure_listen_tree().add_message_importing_tree(src.ensure_listen_tree())
 
