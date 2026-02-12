@@ -1,5 +1,9 @@
 
 (t)thu feb 12 26
+(u)SkinChangerDev
+(p)25725
+(e)🆕🐣|C-Feature, A-Respawning
+(*)Added a new gimmick job, the Computer Operator, along with an associated PDA and Laptop
 (u)Chasu
 (p)25720
 (e)💅⚗|C-QoL, A-Chemistry
