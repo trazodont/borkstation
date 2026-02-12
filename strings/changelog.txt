@@ -1,5 +1,9 @@
 
 (t)thu feb 12 26
+(u)Chasu
+(p)25720
+(e)💅⚗|C-QoL, A-Chemistry
+(+)The ChemiCompiler will now say its text output out loud
 (u)TDHooligan
 (p)25745
 (e)⚖🧛|C-Balance, A-Gamemodes
