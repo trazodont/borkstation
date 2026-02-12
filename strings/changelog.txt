@@ -1,4 +1,10 @@
 
+(t)thu feb 12 26
+(u)TheGeneralJay
+(p)25801
+(e)💅🧛|C-QoL, A-Gamemodes
+(*)Traitor and sleeper agent preferences have been separated.
+(+)Sleeper preferences will take priority when a sleeper event is called, but will fall back on traitor preferences if there are no available sleeper candidates.
 (t)tue feb 10 26
 (u)Cheekybrdy
 (p)25840
