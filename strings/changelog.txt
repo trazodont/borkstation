@@ -1,4 +1,9 @@
 
+(t)fri feb 13 26
+(u)QuiteLiterallyAnything
+(p)25414
+(e)🆕💅🛠️|C-Feature, C-QoL, A-Engineering
+(*)MechComp devices can now have their settings copied to others of the same type via the menu they display when hit with a multitool.
 (t)thu feb 12 26
 (u)Ikea
 (p)25757
