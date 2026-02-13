@@ -1,5 +1,9 @@
 
 (t)thu feb 12 26
+(u)Ribbie & Telareti
+(p)25619
+(e)🎨|C-Sprites
+(*)Added three new hairs: Scorpion Braids, Scorpion Braids: Alternating, Bangs: Scorpion.
 (u)LorrMaster
 (p)25645
 (e)🆕🧱|C-Feature, A-Materials
