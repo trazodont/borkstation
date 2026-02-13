@@ -1,5 +1,9 @@
 
 (t)thu feb 12 26
+(u)LorrMaster
+(p)25645
+(e)🆕🧱|C-Feature, A-Materials
+(+)A bunch of items that should be made of rubber now use synthrubber as their default material.
 (u)Smallsandman
 (p)25887
 (e)🗺|A-Mapping
