@@ -1,6 +1,10 @@
 
 (t)thu feb 12 26
 (u)Smallsandman
+(p)25887
+(e)🗺|A-Mapping
+(*)Added krimpus to Kondaru, No longer is she on vacation (or missing).
+(u)Smallsandman
 (p)25325
 (e)🗺|A-Mapping
 (*)Moves Oshan Laboratories Evidence room.
