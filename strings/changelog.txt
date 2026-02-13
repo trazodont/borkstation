@@ -1,5 +1,9 @@
 
 (t)thu feb 12 26
+(u)Ikea
+(p)25757
+(e)🎨🎩|C-Sprites, A-Clothing
+(+)The bucket hat, flat cap, poncho and shirt, blue hawaiian shirt's, and the dirty vest have been removed from the security clothing vendor. The bucket hat is now in the fish gear vendor and the rest and the max payne hawaiian shirt are in the clothing booth. There is a new sec themed Hawaiian shirt in the sec clothing vendor.
 (u)Ribbie & Telareti
 (p)25619
 (e)🎨|C-Sprites
