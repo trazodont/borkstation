@@ -1,5 +1,9 @@
 
 (t)fri feb 13 26
+(u)Sord
+(p)25891
+(e)🗺❗|A-Mapping, E-FUCK
+(*)Remapped a large amount of disposal/mail/transport pipes on Oshan. Bug report if any mail pipes don't correctly route mail.
 (u)QuiteLiterallyAnything
 (p)25414
 (e)🆕💅🛠️|C-Feature, C-QoL, A-Engineering
