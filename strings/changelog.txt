@@ -1,5 +1,9 @@
 
 (t)fri feb 13 26
+(u)CelineTheYeen
+(p)25381
+(e)🗺|A-Mapping
+(+)The North East maintenance tunnels on Oshan have been redesigned.
 (u)Sord
 (+)The syndicate trash cart and hotdog cart can now be escaped within the first 5 seconds.
 (+)Both syndicate carts now take 10 seconds to kill and are much more loud about it
