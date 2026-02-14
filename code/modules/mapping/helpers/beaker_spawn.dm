@@ -16,6 +16,7 @@
 	var/obj/item/reagent_containers/container
 
 	setup()
+		// TODO: Removem this code chunk once everything uses the helper
 		// First, check for a cup or beaker on the helper's tile.
 		for(var/obj/item/reagent_containers/found_container in src.loc)
 #ifdef CHECK_MORE_RUNTIMES // Multiple containers won't cause a `CRASH()` without `CHECK_MORE_RUNTIMES` defined.
