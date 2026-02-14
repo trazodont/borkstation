@@ -14254,8 +14254,8 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/light/incandescent/blueish,
 /obj/item/reagent_containers/food/snacks/burger/moldy,
+/obj/machinery/light/small/sticky/blueish,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/west)
 "bql" = (
@@ -14987,7 +14987,7 @@
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/southwest)
 "bua" = (
-/obj/machinery/light/incandescent/blueish,
+/obj/machinery/light/small/sticky/blueish,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/southwest)
 "bub" = (
@@ -20033,11 +20033,6 @@
 /obj/stool/chair/office/blue,
 /turf/simulated/floor/darkblue/checker/other,
 /area/station/crew_quarters/radio/lab)
-"bSk" = (
-/obj/tug_cart,
-/obj/machinery/light/incandescent/blueish,
-/turf/simulated/floor/plating/random,
-/area/station/quartermaster/office)
 "bSl" = (
 /turf/simulated/wall/auto/supernorn,
 /area/station/storage/warehouse)
@@ -26632,7 +26627,6 @@
 /turf/simulated/floor/plating,
 /area/station/security/brig)
 "ebV" = (
-/obj/machinery/light/incandescent/cool,
 /obj/disposalpipe/segment/brig{
 	desc = "An underfloor interrogation pipe.";
 	dir = 4;
@@ -27131,16 +27125,6 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/plating,
-/area/station/maintenance/south)
-"eyJ" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/light/small/sticky/blueish,
-/turf/simulated/floor/plating/random,
 /area/station/maintenance/south)
 "eyT" = (
 /obj/decal/cleanable/cobweb{
@@ -32080,6 +32064,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/science/chemistry)
+"iBR" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/disposalpipe/segment/mail{
+	dir = 4
+	},
+/obj/machinery/light/incandescent/blueish{
+	dir = 1
+	},
+/turf/simulated/floor/plating/random,
+/area/station/maintenance/south)
 "iCh" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor,
@@ -36402,13 +36398,6 @@
 /obj/map/light/dimred,
 /turf/simulated/wall/auto/martian,
 /area/evilreaver)
-"mqs" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/light/small/sticky/blueish,
-/turf/simulated/floor/plating/random,
-/area/station/maintenance/south)
 "mrA" = (
 /obj/storage/crate/freezer/milk,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -39371,6 +39360,11 @@
 /obj/decal/stripe_delivery,
 /turf/simulated/floor,
 /area/station/crew_quarters/market)
+"oZU" = (
+/obj/tug_cart,
+/obj/machinery/light/small/sticky/blueish,
+/turf/simulated/floor/plating/random,
+/area/station/quartermaster/office)
 "oZW" = (
 /turf/simulated/wall/auto/martian,
 /area/martian_trader)
@@ -41645,10 +41639,6 @@
 	},
 /turf/simulated/floor/plating/random,
 /area/research_outpost/maint)
-"qZo" = (
-/obj/machinery/light/small/sticky/blueish,
-/turf/simulated/floor/plating/random,
-/area/station/maintenance/south)
 "qZG" = (
 /obj/item/raw_material/bohrum,
 /obj/item/raw_material/bohrum,
@@ -45696,7 +45686,6 @@
 	},
 /area/station/medical/medbay/surgery/storage)
 "uFb" = (
-/obj/machinery/light/small/sticky/blueish,
 /obj/disposalpipe/segment/mail{
 	dir = 4;
 	icon_state = "pipe-c"
@@ -47415,6 +47404,15 @@
 	},
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/west)
+"wqV" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light/incandescent/blueish{
+	dir = 1
+	},
+/turf/simulated/floor/plating/random,
+/area/station/maintenance/south)
 "wrX" = (
 /obj/disposalpipe/segment{
 	dir = 2;
@@ -80023,8 +80021,8 @@ bNZ
 hLj
 bJw
 bJw
-bSk
 bTk
+oZU
 bTk
 bJx
 bJx
@@ -94528,7 +94526,7 @@ dZr
 bVX
 bYt
 bTR
-mqs
+bNP
 bLr
 dou
 aqn
@@ -96642,7 +96640,7 @@ bXD
 dTS
 bVc
 bLr
-mqs
+bNP
 bYl
 bYl
 bYl
@@ -97246,7 +97244,7 @@ jOR
 bJR
 goK
 bLr
-bNP
+wqV
 bYl
 qMA
 qPg
@@ -98454,7 +98452,7 @@ rYv
 bJR
 bLr
 bLr
-lrw
+iBR
 bYl
 eUG
 qPg
@@ -102974,7 +102972,7 @@ aQU
 aQV
 bPL
 bXH
-eyJ
+aQW
 bTb
 bLr
 dou
@@ -105086,7 +105084,7 @@ fiO
 bJn
 xeQ
 bLr
-qZo
+bLr
 bLr
 bLr
 bLr
