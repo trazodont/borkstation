@@ -1,4 +1,9 @@
 
+(t)sun feb 15 26
+(u)JORJ949
+(p)25878
+(e)🗺⚖🧛|A-Mapping, C-Balance, A-Gamemodes
+(*)The listening post is no longer accessless once opened. Instead the doors become syndicate access and destroyable.
 (t)sat feb 14 26
 (u)Lord_Earthfire
 (p)25896
