@@ -218,7 +218,7 @@ o+`        `-` ``..-:yooos-..----------..`
 #define ORIGIN_REVISION "1"
 /// The latest commit author on the origin at the time of the server build, for display
 #define ORIGIN_AUTHOR "bob"
-// This exists and is set to a list of PR numbers when testmerges exist - goonhub-ci/scripts/compile.sh#L104
+// This exists and is set to a list of PR numbers when testmerges exist - goonstation/goonhub/app/Libraries/GameBuilder/Build.php#L392
 // #define TESTMERGE_PRS list(123, 456)
 
 // The following describe when the server was compiled
