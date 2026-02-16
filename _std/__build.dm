@@ -222,8 +222,8 @@ o+`        `-` ``..-:yooos-..----------..`
 // #define TESTMERGE_PRS list(123, 456)
 
 // The following describe when the server was compiled
-#define BUILD_TIME_TIMEZONE_ALPHA "EST" // Server is EST
-#define BUILD_TIME_TIMEZONE_OFFSET -0500
+#define BUILD_TIME_TIMEZONE_ALPHA "UTC" // Server is UTC
+#define BUILD_TIME_TIMEZONE_OFFSET 0000
 #define BUILD_TIME_FULL "2009-02-13 18:31:30"
 #define BUILD_TIME_YEAR 2053
 #define BUILD_TIME_MONTH 03
