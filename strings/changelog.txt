@@ -1,5 +1,9 @@
 
 (t)mon feb 16 26
+(u)Ikea
+(p)25903
+(e)💅💊|C-QoL, A-Medical
+(+)IV bags can now be sliced open with snipping tools such as wirecutters or scissors.
 (u)TheGeneralJay
 (p)25863
 (e)🗺💅|A-Mapping, C-QoL
