@@ -992,6 +992,10 @@
 					name = "mandatory protective equipment sign"
 					icon_state = "mandatory_ppe"
 
+				catears //M30W
+					name = "mandatory cat ears sign"
+					icon_state = "mandatory_catears"
+
 			warning
 				name = "warning sign"
 				icon_state = "warning_action"
