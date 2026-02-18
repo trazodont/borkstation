@@ -1,4 +1,11 @@
 
+(t)tue feb 17 26
+(u)Sord
+(p)25932
+(e)🗺🎨💊📨|A-Mapping, C-Sprites, A-Medical, A-Logistics
+(*)New permanent medical job: Pharmacist
+(+)Pharmacist gets access to the restricted medicine locker and crate, locker moved out of mdir office
+(+)Medical doctors no longer have pharmacy access
 (t)mon feb 16 26
 (u)Ikea
 (p)25903
