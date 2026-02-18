@@ -1,4 +1,9 @@
+
 (t)wed feb 18 26
+(u)JORJ949
+(p)25914
+(e)🎨🎩|C-Sprites, A-Clothing
+(+)The clown's headset now has its own icon and the blue clown has more blue versions of the clown's gear.
 (u)LeahTheTech
 (+)Pharmacists now have access to all doctor and chemistry related traitor items.
 (t)tue feb 17 26
