@@ -1,4 +1,6 @@
-
+(t)wed feb 18 26
+(u)LeahTheTech
+(+)Pharmacists now have access to all doctor and chemistry related traitor items.
 (t)tue feb 17 26
 (u)LorrMaster
 (p)24879
