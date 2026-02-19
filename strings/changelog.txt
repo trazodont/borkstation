@@ -1,5 +1,9 @@
 
 (t)thu feb 19 26
+(u)cringe
+(p)25814
+(e)🆕🎨📦|C-Feature, C-Sprites, A-Game-Objects
+(+)There is now a shower and bath compatible with liquid pipes. to be added to maps.
 (u)Egregorious
 (p)25180
 (e)🔎⚙🍝|C-Code-Quality, A-Internal, A-Catering
