@@ -1,6 +1,10 @@
 
 (t)wed feb 18 26
 (u)JORJ949
+(p)25930
+(e)💅📦|C-QoL, A-Game-Objects
+(+)Airlocks autoclosing is now only disabled if the AI wire was cut, rather than if AI control was disabled. This means airlocks with AI control disabled by default such as Armory, Arrivals and Syndicate will still autoclose.
+(u)JORJ949
 (p)25737
 (e)💅📄📦🧑‍✈️|C-QoL, A-UI, A-Game-Objects, A-Command
 (*)ID Computers now have a button next to the job to set the access on the ID to the job name on the ID. Cannot be used to add accesses the computer does not have in its list of allowed accesses (E.g. setting it to HoS won't add armory or hos office access, but will add all other HoS accesses).
