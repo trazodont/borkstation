@@ -16165,9 +16165,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"bgG" = (
-/turf/simulated/floor/plating,
-/area/space)
 "bgK" = (
 /obj/stool/chair{
 	dir = 4
@@ -16676,7 +16673,8 @@
 "bis" = (
 /obj/machinery/mass_driver{
 	dir = 4;
-	id = "disp-vent"
+	id = "disp-vent";
+	bonus_range = 2
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/disposal)
@@ -16691,6 +16689,10 @@
 	dir = 4;
 	name = "Door-linked Atmospheric Forcefield";
 	powerlevel = 1
+	},
+/obj/machinery/mass_driver{
+	dir = 4;
+	id = "disp-vent"
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/disposal)
@@ -122184,7 +122186,7 @@ bdI
 bfE
 bgD
 bhn
-bir
+iEe
 yje
 yje
 yje
@@ -122486,7 +122488,7 @@ bfs
 wft
 bgE
 bfs
-bis
+bir
 sRe
 bfs
 bfs
@@ -123088,7 +123090,7 @@ bdN
 bdN
 aap
 aaG
-bgG
+adC
 bho
 bit
 bho
