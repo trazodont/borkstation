@@ -1,6 +1,10 @@
 
 (t)thu feb 19 26
 (u)cringe
+(p)25961
+(e)🆕🗺🔎⚗⚙🍝📨|C-Feature, A-Mapping, C-Code-Quality, A-Chemistry, A-Internal, A-Catering, A-Logistics
+(+)There is now a plumbed variant of the sink, to be added to maps. Sinks actually touch reagents on you now.
+(u)cringe
 (p)25814
 (e)🆕🎨📦|C-Feature, C-Sprites, A-Game-Objects
 (+)There is now a shower and bath compatible with liquid pipes. to be added to maps.
