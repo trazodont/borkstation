@@ -887,7 +887,7 @@ ABSTRACT_TYPE(/datum/rc_entry/item/organ)
 
 /datum/rc_entry/item/tracking_beacon
 	name = "teleport-grade tracking beacon"
-	typepath = /obj/item/mechanics/interval_timer
+	typepath = /obj/item/device/radio/beacon
 	feemod = PAY_DOCTORATE * 5
 
 /datum/rc_entry/item/magnet_link
