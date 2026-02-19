@@ -1,5 +1,9 @@
 
 (t)thu feb 19 26
+(u)Kubius
+(p)25957
+(e)⚖|C-Balance
+(+)Increased the baseline payout range of prototypist requisitions (800-1400 > 3600-5350).
 (u)Cheekybrdy
 (p)25953
 (e)🎨|C-Sprites
