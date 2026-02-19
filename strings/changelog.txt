@@ -1,5 +1,9 @@
 
 (t)thu feb 19 26
+(u)Egregorious
+(p)25180
+(e)🔎⚙🍝|C-Code-Quality, A-Internal, A-Catering
+(*)Recipes used by the oven and mixer have been internally reworked. Please report any changes in behaviour, nothing should be different.
 (u)Kubius
 (p)25957
 (e)⚖|C-Balance
