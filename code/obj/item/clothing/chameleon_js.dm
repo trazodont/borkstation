@@ -1319,7 +1319,7 @@ ABSTRACT_TYPE(/datum/chameleon_suit_pattern)
 			src.wear_image = image(wear_image_icon)
 			src.inhand_image = image(inhand_image_icon)
 			src.material_prints = T.print_type
-			var/glove_fp_mask = T.get_fiber_mask()
+			var/glove_fp_mask = T.get_fiber_mask(src)
 			if(glove_fp_mask)
 				src.print_mask = register_id(glove_fp_mask)
 				var/list/fiber_chars = list("c","f","g","h","i","j","k","r","s","t","v","w","x","y","z")
