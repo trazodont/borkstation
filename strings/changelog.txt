@@ -1,5 +1,9 @@
 
 (t)wed feb 18 26
+(u)Kubius
+(p)25762
+(e)🆕🎨📦📨|C-Feature, C-Sprites, A-Game-Objects, A-Logistics
+(+)The Prototypist requisition that previously rewarded sonic showerheads (which are now in the regular purchase pool with a less hostile noise) will now give you several 6-in-1 multifunction tools.
 (u)JORJ949
 (p)25930
 (e)💅📦|C-QoL, A-Game-Objects
