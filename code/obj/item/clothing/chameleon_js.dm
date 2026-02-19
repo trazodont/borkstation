@@ -195,6 +195,12 @@
 		icon_state = "genetics"
 		item_state = "genetics"
 
+	rank/pharmacist
+		name = "pharmacist's jumpsuit"
+		desc = "Proves you know how to make chemicals explode and/or heal people."
+		icon_state = "pharmacist"
+		item_state = "pharmacist"
+
 	rank/hydroponics
 		name = "botanist's jumpsuit"
 		desc = "Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled."
@@ -694,6 +700,12 @@ ABSTRACT_TYPE(/datum/chameleon_suit_pattern)
 		desc = "A protective laboratory coat with the green markings of a Geneticist."
 		icon_state = "GNlabcoat"
 		item_state = "GNlabcoat"
+
+	labcoat_pharmacy
+		name = "pharmacist's labcoat"
+		desc = "A protective laboratory coat with the green markings of a Pharmacist."
+		icon_state = "PHlabcoat"
+		item_state = "PHlabcoat"
 
 	labcoat_robotics
 		name = "roboticist's labcoat"
@@ -1763,6 +1775,18 @@ ABSTRACT_TYPE(/datum/chameleon_suit_pattern)
 		icon_state = "satchel_genetics"
 		item_state = "satchel_genetics"
 
+	pharmacist
+		name = "pharmacy backpack"
+		desc = "A thick, wearable container made of synthetic fibers, able to carry a number of objects safely on the back of pharmacists."
+		icon_state = "bp_pharma"
+		item_state = "bp_pharma"
+
+	pharmacist_satchel
+		name = "pharmacy satchel"
+		desc = "A thick, wearable container made of synthetic fibers, able to carry a number of objects safely on the shoulder of pharmacists."
+		icon_state = "satchel_pharma"
+		item_state = "satchel_pharma"
+
 	medic
 		name = "medic's backpack"
 		desc = "A thick, wearable container made of synthetic fibers, able to carry a number of objects comfortably on a Medical Doctor's back."
@@ -2043,6 +2067,17 @@ ABSTRACT_TYPE(/datum/chameleon_suit_pattern)
 		hat_type = new/datum/chameleon_hat_pattern
 		suit_type = new/datum/chameleon_suit_pattern/labcoat_genetics
 		glasses_type = new/datum/chameleon_glasses_pattern/prodoc
+		shoes_type = new/datum/chameleon_shoes_pattern/white
+		gloves_type = new/datum/chameleon_gloves_pattern/latex
+		belt_type = new/datum/chameleon_belt_pattern/medical
+		backpack_type = new/datum/chameleon_backpack_pattern/genetics
+
+	pharmacist
+		name = "Pharmacist"
+		jumpsuit_type = new/datum/chameleon_jumpsuit_pattern/rank/pharmacist
+		hat_type = new/datum/chameleon_hat_pattern
+		suit_type = new/datum/chameleon_suit_pattern/labcoat_pharmacy
+		glasses_type = new/datum/chameleon_glasses_pattern/spectro
 		shoes_type = new/datum/chameleon_shoes_pattern/white
 		gloves_type = new/datum/chameleon_gloves_pattern/latex
 		belt_type = new/datum/chameleon_belt_pattern/medical
