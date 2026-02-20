@@ -284,6 +284,16 @@ ABSTRACT_TYPE(/datum/job/special)
 		. = ..()
 		src.limit = rand(0,3)
 
+#ifdef RP_MODE
+#define STOWAWAY_ALERT "While you aren't employed by NanoTrasen, you are not an Antagonist! You should act like a sane person that wants to remain on the station."
+	special_setup(mob/M, no_special_spawn)
+		. = ..()
+		SPAWN(2) //Ghost spawn panel SPAWN(1) jank...
+			if(!M.mind?.is_antagonist())
+				tgui_alert(M, STOWAWAY_ALERT)
+#undef STOWAWAY_ALERT
+#endif
+
 /datum/job/special/pirate
 	ui_colour = TGUI_COLOUR_CRIMSON
 	name = "Space Pirate"
