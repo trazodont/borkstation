@@ -927,8 +927,8 @@ ABSTRACT_TYPE(/datum/supply_packs)
 	containername = "Prosthetic Augmentation Kit"
 
 /datum/supply_packs/restricted_medicine
-	name = "Restricted Medicine Shipment (Cardlocked \[Medical Director])"
-	desc = "x1 Omnizine bottle, x1 Perfluorodecalin bottle, x1 Haloperidol bottle, x1 Diethyl Ether bottle."
+	name = "Restricted Medicine Shipment (Cardlocked \[Pharmacy])"
+	desc = "x1 Omnizine bottle, x2 Perfluorodecalin bottles, x1 Pentetic Acid bottle, x1 Haloperidol bottle, x1 Diethyl Ether bottle."
 	category = "Medical Department"
 	contains = list(/obj/item/reagent_containers/glass/bottle/omnizine,
 					/obj/item/reagent_containers/glass/bottle/pfd = 2,
@@ -937,7 +937,7 @@ ABSTRACT_TYPE(/datum/supply_packs)
 					/obj/item/reagent_containers/glass/bottle/ether)
 	cost = PAY_DOCTORATE*5
 	containertype = /obj/storage/secure/crate
-	containername = "Restricted Medicine Shipment (Cardlocked \[Medical Director])"
+	containername = "Restricted Medicine Shipment (Cardlocked \[Pharmacy])"
 	access = access_pharmacy
 
 /datum/supply_packs/cyborg
