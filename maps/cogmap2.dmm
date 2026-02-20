@@ -43167,6 +43167,7 @@
 /area/station/medical/medbay/lobby)
 "cIn" = (
 /obj/disposalpipe/segment,
+/obj/machinery/firealarm/directional/east,
 /turf/simulated/floor/blue/side{
 	dir = 6
 	},
@@ -52005,10 +52006,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/inner/central)
-"ebY" = (
-/obj/machinery/firealarm/directional/east,
-/turf/simulated/wall/auto/reinforced/supernorn,
-/area/station/medical/medbay/lobby)
 "ecI" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 6
@@ -114895,7 +114892,7 @@ pbL
 cDN
 cFE
 cHb
-ebY
+chj
 chj
 aaa
 cMK
