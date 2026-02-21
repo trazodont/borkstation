@@ -1,4 +1,11 @@
 
+(t)sat feb 21 26
+(u)glowbold
+(p)25933
+(e)⚖🧛🐁|C-Balance, A-Gamemodes, A-Critters
+(*)Dead bodies and the paralyzed only twitch if physically hit.
+(*)Changeling "Regenerative Stasis" ability acts as dead for hit-twitches.
+(+)Changeling "Regenerative Stasis" ability prevents forced emotes while faking death.
 (t)thu feb 19 26
 (u)cringe
 (p)25961
