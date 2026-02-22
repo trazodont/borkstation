@@ -1,5 +1,9 @@
 
 (t)sun feb 22 26
+(u)QuiteLiterallyAnything
+(p)25443
+(e)💅📦|C-QoL, A-Game-Objects
+(+)The gene booth's locking and price adjustment menu now only appears when the booth is hit with an ID.
 (u)Pirate-Rob
 (p)25982
 (e)🎨|C-Sprites
