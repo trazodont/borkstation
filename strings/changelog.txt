@@ -1,5 +1,9 @@
 
 (t)sun feb 22 26
+(u)Lord_Earthfire
+(p)25716
+(e)🔎⚙|C-Code-Quality, A-Internal
+(+)Stains of any kind won't magically vanish on assemblies while being manipulated.
 (u)bork and Pirate-Rob
 (p)25984
 (e)🎨|C-Sprites
