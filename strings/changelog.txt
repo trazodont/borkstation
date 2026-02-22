@@ -1,5 +1,9 @@
 
 (t)sun feb 22 26
+(u)bork and Pirate-Rob
+(p)25984
+(e)🎨|C-Sprites
+(*)Resprites all the gene/ability icons! Sprites by Pirate-Rob!
 (u)QuiteLiterallyAnything
 (p)25443
 (e)💅📦|C-QoL, A-Game-Objects
