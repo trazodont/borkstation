@@ -1,4 +1,9 @@
 
+(t)mon feb 23 26
+(u)JORJ949
+(p)25810
+(e)🔄📄🧛📨|C-Rework, A-UI, A-Gamemodes, A-Logistics
+(*)NPC Traders are now in TGUI. Report any bugs you find with this fancy new window.
 (t)sun feb 22 26
 (u)glowbold
 (*)PDA messaging app has been reorganized. Please report any bugs! More details in minor notes
