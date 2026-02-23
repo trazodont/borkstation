@@ -1,5 +1,9 @@
 
 (t)sun feb 22 26
+(u)glowbold
+(*)PDA messaging app has been reorganized. Please report any bugs! More details in minor notes
+(+)PDAs automatically scan for other PDAs to message when first used in-hand.
+(+)SpaceMessenger keeps your most recent contacts at the top of the Direct Messages tab, and all groups in the Groups tab.
 (u)Lord_Earthfire
 (p)25716
 (e)🔎⚙|C-Code-Quality, A-Internal
