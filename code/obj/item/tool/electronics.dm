@@ -14,7 +14,7 @@
 	throwforce = 5
 	w_class = W_CLASS_TINY
 	pressure_resistance = 10
-	item_state = "electronic"
+	item_state = "electronics"
 	flags = TABLEPASS | CONDUCT
 
 /obj/item/electronics/New()
