@@ -461,7 +461,6 @@
 	lockedTries = 6
 	stability_loss = 5
 	icon_state  = "haze"
-	isBad = 1
 
 	OnAdd()
 		. = ..()
@@ -493,7 +492,6 @@
 	probability = 99
 	stability_loss = 5
 	icon_state  = "dead"
-	isBad = 1
 
 /datum/bioEffect/noir
 	name = "Noir"
