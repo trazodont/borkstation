@@ -76,6 +76,7 @@ ABSTRACT_TYPE(/datum/job/special)
 	change_name_on_spawn = TRUE
 	wiki_link = "https://wiki.ss13.co/Mime"
 	email_group = MGD_CIVILIAN
+	rounds_needed_to_play = ROUNDS_MIN_SECASS
 
 /datum/job/special/vice_officer
 	name = "Vice Officer"
@@ -186,6 +187,7 @@ ABSTRACT_TYPE(/datum/job/special)
 	add_to_manifest = FALSE
 	radio_announcement = FALSE
 	low_priority_job = TRUE
+	rounds_needed_to_play = ROUNDS_MIN_SECASS
 	slot_card = null
 	slot_head = list(\
 	/obj/item/clothing/head/green = 1,

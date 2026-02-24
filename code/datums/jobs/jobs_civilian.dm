@@ -181,6 +181,7 @@ ABSTRACT_TYPE(/datum/job/civilian)
 	show_in_id_comp = FALSE
 	wiki_link = "https://wiki.ss13.co/Artificial_Intelligence"
 	email_group = MGD_SILICON
+	rounds_needed_to_play = ROUNDS_MIN_SECASS
 
 	special_setup(var/mob/living/carbon/human/M)
 		..()
