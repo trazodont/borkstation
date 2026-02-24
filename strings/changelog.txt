@@ -1,5 +1,9 @@
 
 (t)mon feb 23 26
+(u)Cheekybrdy
+(p)25655
+(e)🎨🏅🧛|C-Sprites, A-Medal, A-Gamemodes
+(+)Added new medals (no rewards) for winning Battle Royale, Pod Wars and Football.
 (u)JORJ949
 (p)25810
 (e)🔄📄🧛📨|C-Rework, A-UI, A-Gamemodes, A-Logistics
