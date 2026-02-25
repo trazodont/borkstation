@@ -67,21 +67,25 @@
 
 	proc/try_fill(var/obj/item/W, mob/user)
 		if(!src.can_fill || src.empty)
-			boutput(user, SPAN_ALERT("This [src] can't be refilled!"))
+			boutput(user, SPAN_ALERT("[src] can't be refilled!"))
 			return
 
 		if(istype(W, /obj/item/reagent_containers/injector_filler))
-			src.can_fill = FALSE
-			src.empty = FALSE
-			W.reagents.trans_to(src, src.initial_volume)
-			user.visible_message(SPAN_ALERT("[user] transfer chemicals from [W] to [src]."),\
-			SPAN_ALERT("You transfer chemicals from [W] to [src]. [src]'s filling port closes."))
-			playsound(W, 'sound/items/mender_refill_juice.ogg', 40, FALSE)
-			src.UpdateIcon()
-			src.desc = "A small syringe-like thing that automatically injects its contents into someone. This one is filled with a custom solution."
+			if(W.reagents.total_volume > 0)
+				src.can_fill = FALSE
+				src.empty = FALSE
+				W.reagents.trans_to(src, src.initial_volume)
+				user.visible_message(SPAN_ALERT("[user] transfer chemicals from [W] to [src]."),\
+				SPAN_ALERT("You transfer chemicals from [W] to [src]. [src]'s filling port closes."))
+				playsound(W, 'sound/items/mender_refill_juice.ogg', 40, FALSE)
+				src.UpdateIcon()
+				src.desc = "A small syringe-like thing that automatically injects its contents into someone. This one is filled with a custom solution."
+			else
+				boutput(user, SPAN_ALERT("[W] is empty!"))
+				return
 
 		else
-			boutput(user, SPAN_ALERT("This [src] has a proprietary filling port and may only be filled with a pharmacist's <b>auto-injector filler</b>."))
+			boutput(user, SPAN_ALERT("[src] has a proprietary filling port and may only be filled with a pharmacist's <b>auto-injector filler</b>."))
 			return
 
 	proc/try_injection(mob/user, mob/target)
