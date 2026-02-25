@@ -1,5 +1,9 @@
 
 (t)wed feb 25 26
+(u)Sord
+(+)Pharmacists and the Medical Director get an auto-injector filler which can fill empty auto-injectors with hypospray whitelisted chemicals (unless emagged)
+(+)Empty auto-injectors can be printed at the medical fabricator.
+(+)Note: expended/already filled auto-injectors can not have more chemicals added to them.
 (u)A.I. The Artificial Idiot
 (p)26002
 (e)⚗|A-Chemistry

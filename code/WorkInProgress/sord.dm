@@ -667,3 +667,85 @@ ABSTRACT_TYPE(/obj/item/gun/kinetic/breakaction)
 		set_current_projectile(new/datum/projectile/bullet/rifle_3006)
 		AddComponent(/datum/component/holdertargeting/windup, 0.5 SECONDS)
 		..()
+
+// auto injector refiller, move to different file at some point. or dont, im not your/my own boss
+
+TYPEINFO(/obj/item/reagent_containers/injector_filler)
+	mats = list(metal = 10,
+				crystal = 10,
+				conductive_high = 10)
+
+/obj/item/reagent_containers/injector_filler
+	name = "auto-injector filler"
+	desc = "A specialized tool designed to fill empty auto-injectors with approved chemicals."
+	icon = 'icons/obj/chemical.dmi'
+	inhand_image_icon = 'icons/mob/inhand/hand_medical.dmi'
+	item_state = "syringe_0"
+	icon_state = "injector_filler0"
+	flags = TABLEPASS | OPENCONTAINER | NOSPLASH | ACCEPTS_MOUSEDROP_REAGENTS
+	rc_flags = RC_SCALE | RC_VISIBLE | RC_SPECTRO
+	amount_per_transfer_from_this = 10
+	var/image/fluid_image
+	var/list/whitelist = list()
+	var/safe = 1
+
+
+	New()
+		..()
+		if (src.safe && islist(chem_whitelist) && length(chem_whitelist))
+			src.whitelist = chem_whitelist
+
+	update_icon()
+		if (src.reagents.total_volume)
+			src.icon_state = "injector_filler1"
+			src.name = "auto-injector filler ([src.reagents.get_master_reagent_name()])"
+			if (!src.fluid_image)
+				src.fluid_image = image(src.icon, "injector_fillerover", -1)
+			src.fluid_image.color = src.reagents.get_master_color()
+			src.UpdateOverlays(src.fluid_image, "fluid")
+		else
+			src.icon_state = "injector_filler0"
+			src.name = "auto-injector filler"
+			src.UpdateOverlays(null, "fluid")
+		signal_event("icon_updated")
+
+	attack_self(mob/user)
+		if(src.reagents.total_volume > 0)
+			var/confirm = tgui_alert(user, "Empty [src] of all reagents?", "Empty?", list("Yes", "No"))
+
+			if(confirm == "Yes")
+				src.reagents.clear_reagents()
+
+		else
+			..()
+
+	on_reagent_change(add)
+		..()
+		if (src.safe && add)
+			check_whitelist(src, src.whitelist)
+		src.UpdateIcon()
+
+	emag_act(var/mob/user, var/obj/item/card/emag/E)
+		if (!safe)
+			return 0
+		if (user)
+			user.show_text("[src]'s safeties have been disabled.", "red")
+		safe = 0
+		var/image/magged = image(src.icon, "injector_fillermag", layer = FLOAT_LAYER)
+		src.UpdateOverlays(magged, "emagged")
+		return 1
+
+	demag(var/mob/user)
+		if (safe)
+			return 0
+		if (user)
+			user.show_text("[src]'s safeties have been reactivated.", "blue")
+		safe = 1
+		src.UpdateOverlays(null, "emagged")
+		src.UpdateIcon()
+		return 1
+
+/obj/item/reagent_containers/injector_filler/emagged
+	New()
+		..()
+		src.emag_act()
