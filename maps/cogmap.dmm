@@ -27801,7 +27801,7 @@
 /obj/machinery/computer/magnet{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating,
 /area/station/mining/magnet)
 "ccL" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
@@ -50300,7 +50300,7 @@
 /obj/item/device/radio/intercom/mining{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating,
 /area/station/mining/magnet)
 "nKV" = (
 /obj/cable{
