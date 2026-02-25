@@ -42795,10 +42795,6 @@
 	dir = 8
 	},
 /area/station/crew_quarters/market)
-"spu" = (
-/obj/machinery/light_switch/north,
-/turf/space,
-/area/space)
 "spL" = (
 /obj/storage/crate{
 	desc = "Ένα μεγάλο μεταλλικό κουτί στο οποίο μπορείτε να βάλετε πράγματα. Ποιος ξέρει, μπορεί να έχει ήδη πράγματα μέσα του.";
@@ -85243,7 +85239,7 @@ aCy
 aCy
 aaa
 aaa
-spu
+aaa
 aaa
 aaa
 aaa
