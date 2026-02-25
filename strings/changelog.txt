@@ -1,5 +1,9 @@
 
 (t)wed feb 25 26
+(u)A.I. The Artificial Idiot
+(p)26002
+(e)⚗|A-Chemistry
+(*)Adds fish sauce, made by putting a fish in a still
 (u)JORJ949
 (p)25923
 (e)🎨💅🧛🔨|C-Sprites, C-QoL, A-Gamemodes, A-Player-Actions
