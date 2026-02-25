@@ -1,5 +1,9 @@
 
 (t)wed feb 25 26
+(u)JORJ949
+(p)25923
+(e)🎨💅🧛🔨|C-Sprites, C-QoL, A-Gamemodes, A-Player-Actions
+(*)Headspiders are now tied to using a 10 DNA ability rather than having 10 DNA left on death. Using the ability removes it from your list of abilities and will activate on death.
 (u)Temthrush & Sunkiisu
 (p)24649
 (e)🎨🤖|C-Sprites, A-Silicons
