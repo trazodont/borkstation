@@ -5,6 +5,8 @@
 	. = list()
 
 	for_by_tcl(networked, /obj/machinery/networked)
+		if(get_z(networked) != Z_LEVEL_STATION) //Many azones and prefabs use these as props and they don't NEED to be connected unlike onstation
+			continue
 		if (locate(/obj/machinery/power/data_terminal) in networked.loc)
 			continue
 
