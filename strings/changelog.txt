@@ -1,4 +1,9 @@
 
+(t)thu feb 26 26
+(u)bork
+(p)25988
+(e)🔬|A-Science
+(+)Records now all display their names in the same format.
 (t)wed feb 25 26
 (u)Sord
 (+)Pharmacists and the Medical Director get an auto-injector filler which can fill empty auto-injectors with hypospray whitelisted chemicals (unless emagged)
