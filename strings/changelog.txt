@@ -1,5 +1,7 @@
 
 (t)thu feb 26 26
+(u)Sord
+(+)The Pharmacist's auto injector filler can now hold atropine, calomel, diphenhydramine, filgrastim, heparin, morphine, and proconvertin on top of the normal chemical whitelist.
 (u)bork
 (p)25988
 (e)🔬|A-Science

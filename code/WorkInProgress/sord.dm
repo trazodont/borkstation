@@ -688,12 +688,14 @@ TYPEINFO(/obj/item/reagent_containers/injector_filler)
 	var/image/fluid_image
 	var/list/whitelist = list()
 	var/safe = 1
+	var/additional_whitelist = list("atropine", "calomel", "diphenhydramine", "filgrastim", "heparin", "morphine", "proconvertin")
 
 
 	New()
 		..()
 		if (src.safe && islist(chem_whitelist) && length(chem_whitelist))
 			src.whitelist = chem_whitelist
+			src.whitelist += src.additional_whitelist
 
 	update_icon()
 		if (src.reagents.total_volume)
@@ -714,7 +716,10 @@ TYPEINFO(/obj/item/reagent_containers/injector_filler)
 			var/confirm = tgui_alert(user, "Empty [src] of all reagents?", "Empty?", list("Yes", "No"))
 
 			if(confirm == "Yes")
+				logTheThing(LOG_CHEMISTRY, user, "dumps all the chemicals out of [src] [log_reagents(src)]")
+				boutput(user, SPAN_ALERT("You dump out all of the chemicals from [src]"))
 				src.reagents.clear_reagents()
+
 
 		else
 			..()
