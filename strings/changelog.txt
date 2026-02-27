@@ -1,5 +1,9 @@
 
 (t)thu feb 26 26
+(u)JORJ949
+(p)26020
+(e)🎨⚖📦|C-Sprites, C-Balance, A-Game-Objects
+(+)Manufacturers now have a permanent red blinking light when hacked via wires to show their expanded inventory or speed options.
 (u)Sord
 (+)The Pharmacist's auto injector filler can now hold atropine, calomel, diphenhydramine, filgrastim, heparin, morphine, and proconvertin on top of the normal chemical whitelist.
 (u)bork
