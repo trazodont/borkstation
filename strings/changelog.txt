@@ -1,4 +1,9 @@
 
+(t)fri feb 27 26
+(u)JORJ949
+(p)26031
+(e)🆕🗺|C-Feature, A-Mapping
+(+)The VR murderbox now has a vending machine containing weapons found in the Armory. Plus the Lawbringer, Detective's guns and clock 180.
 (t)thu feb 26 26
 (u)JORJ949
 (p)26020
