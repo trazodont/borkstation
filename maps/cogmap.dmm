@@ -33602,7 +33602,7 @@
 	},
 /area/station/janitor/supply)
 "cwt" = (
-/obj/table/reinforced/chemistry/auto,
+/obj/table/reinforced/chemistry/auto/basicsup,
 /obj/machinery/chem_shaker/large/chemistry,
 /turf/simulated/floor/purple,
 /area/station/science/chemistry)
@@ -33611,7 +33611,7 @@
 	pixel_x = -13;
 	pixel_y = 15
 	},
-/obj/table/reinforced/chemistry/auto,
+/obj/table/reinforced/chemistry/auto/auxsup,
 /obj/item/paper/book/from_file/pharmacopia{
 	pixel_x = 8;
 	pixel_y = 2
@@ -40879,7 +40879,7 @@
 	},
 /area/station/engine/elect)
 "gNR" = (
-/obj/table/reinforced/chemistry/auto/basicsup,
+/obj/table/reinforced/chemistry/auto/firstaid,
 /obj/item/storage/toolbox/emergency{
 	pixel_x = 8;
 	pixel_y = 8
