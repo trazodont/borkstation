@@ -1,8 +1,8 @@
 # Copied from 24295_alarm_directionals.txt
 /obj/machinery/alarm/@SUBTYPES/south		: /obj/machinery/alarm/@SUBTYPES_1{@OLD; dir = 1}
 /obj/machinery/alarm/@SUBTYPES/north		: /obj/machinery/alarm/@SUBTYPES_1{@OLD; dir = 2}
-/obj/machinery/alarm/@SUBTYPES/east			: /obj/machinery/alarm/@SUBTYPES_1{@OLD; dir = 4}
-/obj/machinery/alarm/@SUBTYPES/west			: /obj/machinery/alarm/@SUBTYPES_1{@OLD; dir = 8}
+/obj/machinery/alarm/@SUBTYPES/east			: /obj/machinery/alarm/@SUBTYPES_1{@OLD; dir = 8}
+/obj/machinery/alarm/@SUBTYPES/west			: /obj/machinery/alarm/@SUBTYPES_1{@OLD; dir = 4}
 /obj/machinery/alarm/@SUBTYPES/directional	: /obj/machinery/alarm/@SUBTYPES_1{@OLD}
 
 # SOUTH
