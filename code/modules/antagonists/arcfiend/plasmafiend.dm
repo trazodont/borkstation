@@ -3,6 +3,7 @@
 /datum/antagonist/plasmafiend
 	id = ROLE_PLASMAFIEND
 	display_name = "plasmafiend"
+	popup_name_override = ROLE_ARCFIEND
 
 	give_equipment()
 		src.owner.add_antagonist(ROLE_ARCFIEND, do_objectives = FALSE, silent=TRUE)
