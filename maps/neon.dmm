@@ -20659,8 +20659,7 @@
 	},
 /obj/window_blinds/cog2/middle{
 	layer = 2.9;
-	pixel_y = 13;
-	id = "genetics"
+	pixel_y = 13
 	},
 /turf/simulated/floor/plating,
 /area/station/medical/research)
