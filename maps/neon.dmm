@@ -7003,7 +7003,6 @@
 "faA" = (
 /obj/machinery/genetics_scanner,
 /obj/machinery/light_switch/east,
-/obj/blind_switch/east,
 /turf/simulated/floor/green/side{
 	dir = 4
 	},
