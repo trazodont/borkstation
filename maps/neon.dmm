@@ -21509,8 +21509,7 @@
 	},
 /obj/window_blinds/cog2/middle{
 	layer = 2.9;
-	pixel_y = 13;
-	id = "genetics"
+	pixel_y = 13
 	},
 /turf/simulated/floor/plating,
 /area/station/medical/research)
@@ -26768,7 +26767,8 @@
 	},
 /obj/item/cloneModule/genepowermodule,
 /obj/blind_switch/area/south{
-	id = "genetics"
+	name = "broken blind switch";
+	working = 0
 	},
 /turf/simulated/floor/green/side{
 	dir = 10
@@ -30039,8 +30039,7 @@
 	},
 /obj/window_blinds/cog2/middle{
 	layer = 2.9;
-	pixel_y = 13;
-	id = "genetics"
+	pixel_y = 13
 	},
 /turf/simulated/floor/plating,
 /area/station/medical/research)
