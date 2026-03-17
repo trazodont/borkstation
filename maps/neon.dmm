@@ -2138,6 +2138,9 @@
 	},
 /obj/mapping_helper/access/armory,
 /obj/mapping_helper/airlock/aiDisabler,
+/obj/machinery/secscanner{
+	pixel_y = 10
+	},
 /turf/simulated/floor/black,
 /area/station/ai_monitored/armory)
 "bJr" = (
@@ -12195,6 +12198,10 @@
 	},
 /obj/mapping_helper/firedoor_spawn,
 /obj/mapping_helper/access/security,
+/obj/machinery/secscanner{
+	dir = 8;
+	pixel_x = 20
+	},
 /turf/simulated/floor/plating,
 /area/station/security/checkpoint/cargo)
 "iJU" = (
@@ -19652,6 +19659,9 @@
 	icon_state = "1-4"
 	},
 /obj/mapping_helper/access/security,
+/obj/machinery/secscanner{
+	pixel_y = 10
+	},
 /turf/simulated/floor/red,
 /area/station/security/checkpoint/cargo)
 "obo" = (
@@ -21285,6 +21295,9 @@
 /obj/mapping_helper/firedoor_spawn,
 /obj/mapping_helper/access/security,
 /obj/disposalpipe/segment/vertical,
+/obj/machinery/secscanner{
+	pixel_y = 10
+	},
 /turf/simulated/floor,
 /area/station/security/evidence)
 "plQ" = (
