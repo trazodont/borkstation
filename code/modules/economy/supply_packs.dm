@@ -1994,10 +1994,11 @@ ABSTRACT_TYPE(/datum/supply_packs/complex)
 
 /datum/supply_packs/complex/genetics_kit
 	name = "Genetics kit"
-	desc = "x1 DNA Modifier Circuitboard, x1 DNA Scanner Circuitboard."
+	desc = "x1 Genetics Console Circuitboard, x1 Genetek Scanner frame, x1 Genebooth frame."
 	category = "Medical Department"
 	contains = list(/obj/item/circuitboard/genetics)
-	frames = list(/obj/machinery/genetics_scanner)
+	frames = list(/obj/machinery/genetics_scanner,
+					/obj/machinery/genetics_booth)
 	cost = PAY_DOCTORATE*10
 	containertype = /obj/storage/crate
 	containername = "Genetics kit"
