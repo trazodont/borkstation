@@ -43874,7 +43874,7 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/obj/landmark/start/job/medical_doctor,
+/obj/landmark/start/job/medical_trainee,
 /turf/simulated/floor/black,
 /area/station/medical/medbay/reception)
 "cLg" = (
@@ -44965,6 +44965,7 @@
 	dir = 4
 	},
 /obj/machinery/firealarm/directional/west,
+/obj/landmark/start/job/medical_trainee,
 /turf/simulated/floor/white,
 /area/station/medical/medbay/lobby)
 "cPk" = (
@@ -45287,6 +45288,7 @@
 /obj/machinery/camera/directional/west{
 	pixel_y = 10
 	},
+/obj/landmark/start/job/medical_trainee,
 /turf/simulated/floor/white,
 /area/station/medical/medbay/lobby)
 "cQH" = (
@@ -48036,7 +48038,7 @@
 /obj/stool/chair/office{
 	dir = 4
 	},
-/obj/landmark/start/job/medical_doctor,
+/obj/landmark/start/job/medical_trainee,
 /turf/simulated/floor/carpet/blue/fancy/edge/west,
 /area/station/medical/medbay)
 "daQ" = (
@@ -48069,8 +48071,8 @@
 /obj/stool/chair/office{
 	dir = 8
 	},
-/obj/landmark/start/job/medical_doctor,
 /obj/disposalpipe/segment/vertical,
+/obj/landmark/start/job/medical_trainee,
 /turf/simulated/floor/carpet/blue/fancy/edge/east,
 /area/station/medical/medbay)
 "daT" = (
@@ -48682,6 +48684,7 @@
 /obj/stool/chair/couch/blue{
 	dir = 8
 	},
+/obj/landmark/start/job/medical_trainee,
 /turf/simulated/floor/carpet/blue/fancy/narrow/nw,
 /area/station/medical/medbay/psychiatrist)
 "ddL" = (
@@ -64476,6 +64479,12 @@
 	},
 /turf/simulated/floor,
 /area/station/turret_protected/ai_upload_foyer)
+"oLd" = (
+/obj/landmark/start/job/medical_trainee,
+/turf/simulated/floor/grass{
+	name = "astroturf"
+	},
+/area/station/medical/dome)
 "oLw" = (
 /obj/table/auto,
 /obj/random_item_spawner/tools,
@@ -114620,7 +114629,7 @@ cWy
 dgy
 uKJ
 ddd
-ddd
+oLd
 ddd
 dgi
 ddg
