@@ -9537,7 +9537,6 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/inner/east)
 "aPH" = (
@@ -27971,7 +27970,6 @@
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /obj/cable{
 	icon_state = "4-8"
 	},
@@ -28759,7 +28757,6 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southwest)
 "dKT" = (
@@ -29175,7 +29172,6 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/east)
 "dXt" = (
@@ -30275,7 +30271,6 @@
 /area/station/mining/magnet)
 "eGf" = (
 /obj/machinery/door/airlock/pyro/maintenance,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southeast)
 "eGl" = (
@@ -34024,7 +34019,6 @@
 "hcp" = (
 /obj/machinery/door/airlock/pyro/maintenance,
 /obj/disposalpipe/segment/vertical,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/east)
 "hcM" = (
@@ -34523,7 +34517,6 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "hvT" = (
@@ -36107,7 +36100,6 @@
 /obj/cable{
 	icon_state = "1-6"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/grey,
 /area/station/maintenance/inner/south)
 "iGQ" = (
@@ -36651,7 +36643,6 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/grey,
 /area/station/maintenance/north)
 "iXV" = (
@@ -38209,7 +38200,6 @@
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/west)
 "kaa" = (
@@ -40825,7 +40815,6 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southeast)
 "lJn" = (
@@ -42453,7 +42442,6 @@
 	dir = 4
 	},
 /obj/disposalpipe/segment/horizontal,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "mPC" = (
@@ -44925,7 +44913,6 @@
 /obj/cable{
 	icon_state = "2-5"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "oFr" = (
@@ -45120,7 +45107,6 @@
 /area/station/chapel/sanctuary)
 "oLD" = (
 /obj/machinery/door/airlock/pyro/maintenance,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/north)
 "oMs" = (
@@ -46484,7 +46470,6 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southeast)
 "pOj" = (
@@ -47023,7 +47008,6 @@
 "qeh" = (
 /obj/machinery/door/airlock/pyro/maintenance,
 /obj/disposalpipe/segment/vertical,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "qep" = (
@@ -49039,16 +49023,6 @@
 /obj/machinery/light/runway_light/delay2,
 /turf/space,
 /area/space)
-"rxS" = (
-/obj/machinery/door/airlock/pyro/maintenance{
-	dir = 4
-	},
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/mapping_helper/access/maint,
-/turf/simulated/floor/plating,
-/area/station/maintenance/west)
 "rxZ" = (
 /obj/mesh/catwalk{
 	dir = 9
@@ -50779,6 +50753,15 @@
 /obj/landmark/halloween,
 /turf/simulated/floor,
 /area/station/hallway/secondary/south)
+"sMz" = (
+/obj/machinery/door/airlock/pyro/maintenance{
+	dir = 4
+	},
+/obj/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/station/maintenance/south)
 "sMK" = (
 /obj/machinery/light{
 	dir = 8;
@@ -51336,6 +51319,15 @@
 /obj/machinery/launcher_loader/east,
 /turf/simulated/floor/plating/airless,
 /area/station/maintenance/inner/east)
+"tdj" = (
+/obj/machinery/door/airlock/pyro/maintenance{
+	dir = 4
+	},
+/obj/disposalpipe/segment/brig{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/station/maintenance/south)
 "tdy" = (
 /obj/disposaloutlet/south,
 /obj/disposalpipe/trunk/west,
@@ -51749,7 +51741,6 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northwest)
 "trr" = (
@@ -57863,7 +57854,6 @@
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southeast)
 "xtO" = (
@@ -58522,7 +58512,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/pyro/maintenance,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/inner/east)
 "xPJ" = (
@@ -95631,7 +95620,7 @@ uGb
 sGz
 ait
 jZO
-rxS
+dlA
 axJ
 dSl
 azK
@@ -105062,8 +105051,8 @@ bYl
 bRo
 bSS
 bXi
-dHJ
-iuH
+sMz
+tdj
 rAe
 hJL
 vGv

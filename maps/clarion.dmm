@@ -14811,7 +14811,6 @@
 	name = "South West Maintenance"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southwest)
 "ftL" = (
@@ -25683,7 +25682,6 @@
 	dir = 4
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/south)
 "nax" = (
@@ -29792,7 +29790,6 @@
 	},
 /obj/machinery/door/airlock/pyro/maintenance,
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southwest)
 "pWl" = (
@@ -30380,7 +30377,6 @@
 	name = "Maintenance"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/clown)
 "qsX" = (
@@ -35113,7 +35109,6 @@
 "tPf" = (
 /obj/machinery/door/airlock/pyro/maintenance,
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southwest)
 "tPo" = (
@@ -36163,7 +36158,6 @@
 	name = "West Maintenance"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southwest)
 "uvs" = (

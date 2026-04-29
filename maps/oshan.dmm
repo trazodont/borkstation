@@ -4318,7 +4318,6 @@
 	dir = 4
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/northeast)
 "atU" = (
@@ -24567,14 +24566,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/medical/medbay/cloner)
-"cKd" = (
-/obj/mapping_helper/access/maint,
-/obj/machinery/door/airlock/pyro/maintenance/alt{
-	dir = 4
-	},
-/obj/mapping_helper/firedoor_spawn,
-/turf/simulated/floor/plating,
-/area/station/maintenance/northwest)
 "cKm" = (
 /obj/machinery/vending/standard/toxins,
 /turf/simulated/floor/engine,
@@ -27076,12 +27067,6 @@
 /obj/item/casing,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/south)
-"eND" = (
-/obj/mapping_helper/access/maint,
-/obj/machinery/door/airlock/pyro/maintenance/alt,
-/obj/mapping_helper/firedoor_spawn,
-/turf/simulated/floor/plating,
-/area/station/maintenance/northwest)
 "eNM" = (
 /obj/machinery/door/airlock/pyro/external,
 /obj/mapping_helper/airlock/cycler/manual{
@@ -27540,7 +27525,6 @@
 /area/station/hydroponics/bay)
 "ffg" = (
 /obj/machinery/door/airlock/pyro/maintenance/alt,
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/inner/central)
@@ -28114,7 +28098,6 @@
 	dir = 4
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/southwest)
 "fFn" = (
@@ -29536,14 +29519,6 @@
 	},
 /turf/simulated/floor,
 /area/station/engine/engineering)
-"gKt" = (
-/obj/machinery/door/airlock/pyro/maintenance/alt{
-	dir = 4
-	},
-/obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
-/turf/simulated/floor/plating/random,
-/area/station/maintenance/inner/central)
 "gKC" = (
 /obj/lattice{
 	icon_state = "lattice-dir"
@@ -31099,7 +31074,6 @@
 /area/station/crew_quarters/hop)
 "ifp" = (
 /obj/machinery/door/airlock/pyro/maintenance/alt,
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northwest)
@@ -31282,7 +31256,6 @@
 	icon_state = "1-2"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/west)
 "ioK" = (
@@ -32548,12 +32521,6 @@
 /obj/mapping_helper/mob_spawn/corpse/critter/random/martian,
 /turf/simulated/floor/martian,
 /area/evilreaver/bridge)
-"jvS" = (
-/obj/machinery/door/airlock/pyro/maintenance/alt,
-/obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
-/turf/simulated/floor/plating/random,
-/area/station/maintenance/southwest)
 "jvU" = (
 /obj/disposalpipe/segment/bent/north,
 /obj/lattice,
@@ -32615,7 +32582,6 @@
 "jzv" = (
 /obj/machinery/door/airlock/pyro/maintenance/alt,
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "jzB" = (
@@ -35501,7 +35467,6 @@
 /area/station/medical/medbay/lobby)
 "lPL" = (
 /obj/machinery/door/airlock/pyro/maintenance/alt,
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/black,
 /area/station/maintenance/inner/central)
@@ -35793,7 +35758,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northwest)
@@ -36342,7 +36306,6 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/disposal)
 "mBS" = (
@@ -37918,7 +37881,6 @@
 	dir = 4
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "nTW" = (
@@ -38459,12 +38421,6 @@
 /obj/landmark/start/job/medical_doctor,
 /turf/simulated/floor/blue/corner,
 /area/station/medical/medbay/surgery/storage)
-"osF" = (
-/obj/machinery/door/airlock/pyro/maintenance/alt,
-/obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
-/turf/simulated/floor/plating/random,
-/area/station/maintenance/northeast)
 "osH" = (
 /turf/simulated/floor/yellow/side{
 	dir = 1
@@ -38479,7 +38435,6 @@
 	dir = 4
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/north)
 "ovi" = (
@@ -39561,7 +39516,6 @@
 /area/space)
 "puD" = (
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /obj/machinery/door/airlock/pyro/maintenance/alt,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
@@ -40440,7 +40394,6 @@
 /area/station/engine/elect)
 "qkP" = (
 /obj/machinery/door/airlock/pyro/maintenance/alt,
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/inner/central)
@@ -41216,14 +41169,6 @@
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/stairs,
 /area/station/chapel/office)
-"qVd" = (
-/obj/machinery/door/airlock/pyro/maintenance/alt{
-	dir = 4
-	},
-/obj/mapping_helper/access/maint,
-/obj/mapping_helper/firedoor_spawn,
-/turf/simulated/floor/plating,
-/area/station/maintenance/northeast)
 "qVJ" = (
 /obj/machinery/light/incandescent/cool,
 /obj/cable{
@@ -42377,14 +42322,6 @@
 "rPU" = (
 /turf/simulated/floor/plating,
 /area/station/security/beepsky)
-"rPW" = (
-/obj/machinery/door/airlock/pyro/maintenance/alt{
-	dir = 4
-	},
-/obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
-/turf/simulated/floor/plating/random,
-/area/station/maintenance/northeast)
 "rQE" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -43465,7 +43402,6 @@
 	dir = 4
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/inner/central)
 "sHE" = (
@@ -43643,7 +43579,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/inner/central)
@@ -44426,7 +44361,6 @@
 "txA" = (
 /obj/machinery/door/airlock/pyro/maintenance/alt,
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/west)
 "tzo" = (
@@ -45345,12 +45279,6 @@
 	},
 /turf/simulated/floor/plating/random,
 /area/research_outpost/hangar)
-"ukq" = (
-/obj/machinery/door/airlock/pyro/maintenance/alt,
-/obj/mapping_helper/access/maint,
-/obj/mapping_helper/firedoor_spawn,
-/turf/simulated/floor/plating/random,
-/area/station/maintenance/northeast)
 "ulg" = (
 /obj/cable{
 	icon_state = "2-4"
@@ -46494,7 +46422,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/black,
 /area/station/maintenance/inner/central)
@@ -46560,7 +46487,6 @@
 "vAP" = (
 /obj/machinery/door/airlock/pyro/maintenance/alt,
 /obj/structure/woodwall,
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/inner/central)
@@ -47404,7 +47330,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/northwest)
@@ -48214,7 +48139,6 @@
 	icon_state = "4-8"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/southwest)
 "wUd" = (
@@ -49334,7 +49258,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/inner/central)
@@ -49837,7 +49760,6 @@
 	dir = 4
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor,
 /area/station/maintenance/inner/central)
 "yjD" = (
@@ -78410,7 +78332,7 @@ qpm
 ioU
 qpm
 qpm
-eND
+ifp
 qpm
 qpm
 qpm
@@ -78707,7 +78629,7 @@ aia
 qpm
 qpm
 qpm
-eND
+ifp
 qpm
 qpm
 aia
@@ -79304,8 +79226,8 @@ ahb
 ahb
 ahb
 ahb
-cKd
-cKd
+mds
+mds
 aia
 aia
 aia
@@ -80876,7 +80798,7 @@ bsS
 bot
 buc
 btX
-jvS
+jTG
 btZ
 bJw
 cDL
@@ -100157,7 +100079,7 @@ azt
 ayd
 aBn
 aBn
-gKt
+xPw
 chd
 aig
 ckO
@@ -102857,7 +102779,7 @@ mPe
 mPe
 aOO
 aOO
-rPW
+rCV
 aOO
 amf
 apw
@@ -103764,10 +103686,10 @@ mPe
 aOO
 aoj
 aoj
-osF
+kCm
 aoj
 aoj
-osF
+kCm
 aoj
 aoj
 aoj
@@ -113456,7 +113378,7 @@ lfd
 aOO
 aOO
 aOO
-qVd
+nTU
 aOO
 aOO
 aOO
@@ -114351,7 +114273,7 @@ kTn
 aoj
 aoj
 rWW
-woL
+jzv
 xac
 mIg
 lol
@@ -114367,7 +114289,7 @@ ofx
 skl
 aOO
 aOO
-qVd
+nTU
 aOO
 aOO
 aqn
@@ -114375,7 +114297,7 @@ aqn
 aqn
 aOO
 aOO
-qVd
+nTU
 aOO
 anx
 aqn
@@ -115257,7 +115179,7 @@ anx
 mPe
 mPe
 mPe
-woL
+jzv
 rWW
 aoj
 rWW
@@ -115265,7 +115187,7 @@ pnn
 aoj
 cfa
 aoj
-woL
+jzv
 exz
 aoj
 aoj
@@ -115301,7 +115223,7 @@ aqn
 anx
 aoj
 mPe
-ukq
+kCm
 mPe
 ijk
 qzO
@@ -116211,7 +116133,7 @@ nAA
 aOO
 jUm
 jUm
-qVd
+nTU
 aOO
 byi
 bzf

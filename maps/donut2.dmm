@@ -17611,7 +17611,6 @@
 	dir = 4;
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
@@ -21147,7 +21146,6 @@
 	dir = 4;
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southwest)
 "ggf" = (
@@ -21993,6 +21991,13 @@
 /obj/machinery/light/incandescent,
 /turf/simulated/floor/carpet/arcade,
 /area/station/crew_quarters/captain)
+"gFh" = (
+/obj/machinery/door/airlock/pyro/maintenance/alt{
+	req_access = null
+	},
+/obj/mapping_helper/firedoor_spawn,
+/turf/simulated/floor/plating,
+/area/station/maintenance/northwest)
 "gFk" = (
 /obj/machinery/atmospherics/pipe/simple/junction,
 /turf/simulated/floor/engine/vacuum,
@@ -22077,7 +22082,6 @@
 	dir = 4;
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /obj/cable/blue{
 	icon_state = "4-8"
@@ -24331,7 +24335,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southwest)
 "hYT" = (
@@ -24977,6 +24980,17 @@
 	icon_state = "fred2"
 	},
 /area/station/security/detectives_office)
+"isK" = (
+/obj/machinery/door/airlock/pyro/maintenance/alt{
+	dir = 4;
+	req_access = null
+	},
+/obj/mapping_helper/firedoor_spawn,
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/station/maintenance/northwest)
 "isO" = (
 /obj/mesh/catwalk{
 	dir = 4
@@ -25821,7 +25835,6 @@
 	dir = 4;
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
@@ -26653,7 +26666,6 @@
 	dir = 4;
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /obj/disposalpipe/segment{
 	dir = 4
@@ -26730,7 +26742,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/inner/central)
 "jss" = (
@@ -27452,7 +27463,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southwest)
@@ -27533,7 +27543,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/disposal)
@@ -28268,7 +28277,6 @@
 	dir = 4;
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/inner/central)
@@ -28338,7 +28346,6 @@
 	dir = 4;
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /obj/disposalpipe/segment/food{
 	dir = 8
@@ -28537,7 +28544,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "kxs" = (
@@ -28648,7 +28654,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/west)
 "kBo" = (
@@ -29330,7 +29335,6 @@
 	dir = 4;
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/inner/central)
@@ -34568,7 +34572,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor,
 /area/station/maintenance/southwest)
@@ -38473,7 +38476,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /obj/disposalpipe/segment/food,
 /turf/simulated/floor/plating,
@@ -41995,6 +41997,13 @@
 	dir = 1
 	},
 /area/station/science/hall)
+"rPR" = (
+/obj/machinery/door/airlock/pyro/maintenance/alt{
+	req_access = null
+	},
+/obj/mapping_helper/firedoor_spawn,
+/turf/simulated/floor/plating,
+/area/station/maintenance/inner/central)
 "rQz" = (
 /obj/disposalpipe/segment{
 	dir = 4
@@ -48732,6 +48741,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/baroffice)
+"vIb" = (
+/obj/machinery/door/airlock/pyro/maintenance/alt{
+	dir = 4;
+	req_access = null
+	},
+/turf/simulated/floor/plating,
+/area/station/maintenance/west)
 "vIi" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -48780,7 +48796,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/west)
@@ -49609,6 +49624,16 @@
 	},
 /turf/simulated/floor/yellow,
 /area/station/engine/engineering)
+"wni" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/pyro/maintenance/alt{
+	req_access = null
+	},
+/obj/mapping_helper/firedoor_spawn,
+/turf/simulated/floor/plating,
+/area/station/maintenance/inner/central)
 "wnw" = (
 /obj/table/auto,
 /obj/item/storage/box/revimp_kit{
@@ -50687,7 +50712,6 @@
 /obj/machinery/door/airlock/pyro/maintenance/alt{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/west)
@@ -64727,7 +64751,7 @@ arN
 avq
 avq
 avq
-mle
+vIb
 avq
 avq
 avq
@@ -69826,7 +69850,7 @@ aJW
 hKi
 hKi
 gHR
-eoa
+isK
 hKi
 aKL
 aKL
@@ -70426,7 +70450,7 @@ hKi
 htN
 mAE
 mtd
-aRW
+gFh
 kJp
 kRy
 cYZ
@@ -70728,7 +70752,7 @@ mmQ
 iGO
 mtd
 sMU
-aRW
+gFh
 vSl
 gIS
 fAi
@@ -92194,7 +92218,7 @@ wMk
 ssc
 elW
 aWB
-soV
+wni
 elW
 elW
 elW
@@ -92496,7 +92520,7 @@ aFY
 azU
 azU
 aFq
-hwm
+rPR
 azU
 azU
 azU

@@ -52517,7 +52517,6 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/south)
 "eEu" = (
@@ -52700,7 +52699,6 @@
 	icon_state = "1-2"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /obj/decal/stripe_delivery,
 /turf/simulated/floor,
 /area/station/storage/auxillary)
@@ -59606,7 +59604,6 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/clown{
 	name = "Clown's Quarters"
@@ -60775,7 +60772,6 @@
 	dir = 4
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/solar/north)
 "lxh" = (
@@ -62405,7 +62401,6 @@
 	dir = 4
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /obj/decal/stripe_delivery,
 /turf/simulated/floor,
 /area/station/maintenance/disposal)
@@ -71068,6 +71063,7 @@
 	dir = 1
 	},
 /obj/decal/stripe_delivery,
+/obj/mapping_helper/access/maint,
 /turf/simulated/floor,
 /area/station/quartermaster/refinery)
 "uxI" = (
@@ -72218,7 +72214,6 @@
 	dir = 4
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/solar/south)
 "vCI" = (

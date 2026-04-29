@@ -628,7 +628,6 @@
 /area/station/engine/inner)
 "aht" = (
 /obj/decal/stripe_delivery,
-/obj/mapping_helper/access/maint,
 /obj/cable{
 	icon_state = "4-8"
 	},
@@ -12232,7 +12231,6 @@
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/outer/ne)
 "dKg" = (
-/obj/mapping_helper/access/maint,
 /obj/decal/stripe_delivery,
 /obj/cable{
 	icon_state = "1-2"
@@ -14794,7 +14792,6 @@
 /turf/simulated/floor/plating,
 /area/station/engine/engineering/breakroom)
 "eAw" = (
-/obj/mapping_helper/access/maint,
 /obj/decal/stripe_delivery,
 /obj/cable{
 	icon_state = "4-8"
@@ -35959,7 +35956,6 @@
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/outer/east)
 "lkj" = (
-/obj/mapping_helper/access/maint,
 /obj/decal/stripe_delivery,
 /obj/cable{
 	icon_state = "4-8"
@@ -41003,7 +40999,6 @@
 /obj/machinery/door/airlock/pyro/maintenance{
 	req_access = null
 	},
-/obj/mapping_helper/access/maint,
 /obj/cable{
 	icon_state = "1-2"
 	},
@@ -54858,7 +54853,6 @@
 /area/station/maintenance/outer/north)
 "raL" = (
 /obj/decal/stripe_delivery,
-/obj/mapping_helper/access/maint,
 /obj/cable{
 	icon_state = "1-2"
 	},
@@ -68821,7 +68815,6 @@
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/outer/north)
 "vol" = (
-/obj/mapping_helper/access/maint,
 /obj/decal/stripe_delivery,
 /obj/machinery/door/airlock/pyro/maintenance{
 	req_access = null;
@@ -73089,7 +73082,6 @@
 	},
 /area/station/crew_quarters/courtroom)
 "wAy" = (
-/obj/mapping_helper/access/maint,
 /obj/decal/stripe_delivery,
 /obj/cable{
 	icon_state = "4-8"

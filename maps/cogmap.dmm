@@ -36030,7 +36030,6 @@
 	icon_state = "1-2"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/atmos/hookups/east)
 "dPW" = (
@@ -37363,7 +37362,6 @@
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/east)
 "eGU" = (
@@ -39541,7 +39539,6 @@
 	icon_state = "1-2"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/grime,
 /area/station/hallway/secondary/construction2)
 "gfr" = (
@@ -41565,7 +41562,6 @@
 	icon_state = "1-2"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/grime,
 /area/station/hallway/secondary/construction)
 "hCK" = (
@@ -46885,7 +46881,6 @@
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southwest)
 "lBV" = (
@@ -50857,8 +50852,6 @@
 /area/station/routing/sortingRoom)
 "onU" = (
 /obj/machinery/door/airlock/pyro/maintenance,
-/obj/mapping_helper/access/bar,
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "ook" = (
@@ -57004,7 +56997,6 @@
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/northwest)
 "sFY" = (
@@ -57222,7 +57214,6 @@
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/central)
 "sMR" = (
@@ -64086,7 +64077,6 @@
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
 	},
-/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southeast)
 "xLf" = (
