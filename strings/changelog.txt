@@ -1,4 +1,13 @@
 
+(t)wed apr 29 26
+(u)TheGeneralJay
+(p)26279
+(e)🗺|A-Mapping
+(*)Crew of the NSS Clarion can now utilize the fancy new southern hall.
+(u)bamlord
+(p)26458
+(e)|
+(+)Basketball hoops now send an mechcomp output and are thus even more illegal.
 (t)sat apr 25 26
 (u)Lorrmaster
 (p)26361
