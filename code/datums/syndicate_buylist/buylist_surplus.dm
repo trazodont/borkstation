@@ -170,7 +170,7 @@ ABSTRACT_TYPE(/datum/syndicate_buylist/surplus)
 /datum/syndicate_buylist/surplus/batong
 	name = "Wind-up stun baton"
 	items = list(/obj/item/baton/windup)
-	cost = 4
+	cost = 3
 	desc = "An experimental but powerful stun baton. Requires a brief charge-up window to activate."
 
 /datum/syndicate_buylist/surplus/lasershotgun
