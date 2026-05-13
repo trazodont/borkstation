@@ -1,4 +1,9 @@
 
+(t)wed may 13 26
+(u)bamlord, sprites by swinglow20
+(p)26535
+(e)🗺🎨📡🐁|A-Mapping, C-Sprites, A-AI, A-Critters
+(*)Added Gorillas, extremely robust and rare critters.
 (t)tue may 12 26
 (u)Bonnedav
 (p)26583
