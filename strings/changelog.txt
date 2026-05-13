@@ -1,5 +1,10 @@
 
 (t)wed may 13 26
+(u)EmeraldCrow
+(p)26232
+(e)🆕🎨📦|C-Feature, C-Sprites, A-Game-Objects
+(*)Adds Ricochet stun bullets to hacked SecTechs and normal ammotech. bank shot that clown today!
+(+)New sprites for lethal ricochet bullets, to match the stun ricochet bullets.
 (u)bamlord, sprites by swinglow20
 (p)26535
 (e)🗺🎨📡🐁|A-Mapping, C-Sprites, A-AI, A-Critters
