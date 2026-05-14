@@ -1,4 +1,8 @@
 
+(t)thu may 14 26
+(u)glowbold
+(e)🆕🔨|C-Feature, A-Player-Actions
+(*)Observers can toggle examine-on-click with a new button in the top-right HUD.
 (t)wed may 13 26
 (u)LeahTheTech
 (*)Two new items have been added to the syndicate surplus pool: a unique stun baton with a windup and instant 5 second stun, and a big laser shotgun with very bouncy projectiles (overheating guaranteed). These will also show up in spy-thief bounties.
